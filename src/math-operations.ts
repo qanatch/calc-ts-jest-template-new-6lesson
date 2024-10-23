@@ -6,4 +6,7 @@ export class MathOperations {
   subtract(a: number, b: number): number {
     return a - b
   }
+  squaring(a: number): number {
+    return a ** 2
+  }
 }
